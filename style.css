@@ -1,55 +1,23 @@
-footer a {
-    text-align: center;
-    margin: 10px;
-    text-decoration: none;
-    color: #000;
-}
-
 footer img {
-    width: 50px;
-    height: auto;
-    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column; /* Empilha os itens em telas menores */
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer a {
-        margin: 15px 0; /* Aumenta o espaçamento entre os itens */
-    }
-
-    footer img {
-        width: 40px;  /* Ajusta o tamanho das imagens */
-    }
-    
-    img {
-        width: 100%;  /* Garante que a imagem ocupe toda a largura disponível */
-    }
+footer {
+    display: flex;
+    justify-content: center;
 }
 
-/* Responsividade para tablets (maiores que 768px e menores que 1024px) */
-@media (max-width: 1024px) {
-    footer {
-        justify-content: space-between;
-    }
-
-    footer img {
-        width: 60px;  /* Ajusta o tamanho das imagens no footer em tablets */
-    }
+footer a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
-/* Ajustes para telas muito pequenas (celulares) */
-@media (max-width: 480px) {
-    img {
-        width: 100%;  /* A imagem ocupa toda a largura disponível */
-    }
-
-    footer img {
-        width: 40px;  /* Reduz o tamanho das imagens */
-    }
+footer p {
+    margin-top: 2px;
+}
+title {
+    color: black;
 }
