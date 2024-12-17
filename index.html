@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature Beauty</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <img src="./logo.jpeg" alt="logo projeto" usemap="#logo" width="1500" height="700">
-    <map name="logo">
-        <area shape="poly" coords="460,71,460,100,574,100,574,71,460,71" href="sobre.html" alt="sobre o Produto" title="Sobre o Produto">
+    <header>
+        <img src="./logo.jpeg" alt="logo projeto" usemap="#logo" width="1500" height="700">
+        <map name="logo">
+            <area shape="poly" coords="460,71,460,100,574,100,574,71,460,71" href="sobre.html" alt="sobre o Produto" title="Sobre o Produto">
+            <area shape="poly" coords="773,70,773,100,857,100,857,70,773,70" href="projeto.html" alt="Sobre o Projeto" title="Sobre o Projeto">
+            <area shape="poly" coords="1011,70,1011,100,1133,100,1133,70,1011,70" href="contato.html" alt="Nosso Contato" title="Nosso Contato">
+            <area shape="poly" coords="920,565,920,615,1135,615,1135,565,920,565" href="catálago.html" alt="Catálogo" title="Catálogo">
+        </map>
+    </header>
 
-        <area shape="poly" coords="773,70,773,100,857,100,857,70,773,70" href="projeto.html" alt="Sobre o Projeto" title="Sobre o Projeto">
+    <footer>
+        <a href="https://www.instagram.com/__nature.beuty?igsh=YmtpbHVmcXRyZ3V0" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <img id="insta-logo" src="./logo insta.webp" onmouseover="changeImage('insta-logo', './logo insta-hover.webp')" onmouseout="restoreImage('insta-logo', './logo insta.webp')">
+            <p>Instagram</p>
+        </a>
 
-        <area shape="poly" coords="1011,70,1011,100,1133,100,1133,70,1011,70" href="contato.html" alt="Nosso Contato" title="Nosso Contato">
+        <a href="https://wa.link/6dg0c8" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+            <img id="zap-logo" src="./logo zap.png" onmouseover="changeImage('zap-logo', './logo zap-hover.png')" onmouseout="restoreImage('zap-logo', './logo zap.png')">
+            <p>WhatsApp</p>
+        </a>
 
-        <area shape="poly" coords="920,565,920,615,1135,615,1135,565,920,565" href="catálago.html" alt="Catálogo" title="Catálogo">
-    </map>
-    
- <footer>
-    <a href="https://www.instagram.com/__nature.beuty?igsh=YmtpbHVmcXRyZ3V0" target="_blank" rel="noopener noreferrer" title="Instagram">
-     <img src="./logo insta.webp">
-     <p>Instagran</p>
-    </a>
+        <a href="https://www.facebook.com/share/agWkzsx5SL4WVhgo/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" title="Facebook">
+            <img id="face-logo" src="./logo face.jpeg" onmouseover="changeImage('face-logo', './logo face-hover.jpeg')" onmouseout="restoreImage('face-logo', './logo face.jpeg')">
+            <p>Facebook</p>
+        </a>
+    </footer>
 
-    <a href="https://wa.link/6dg0c8" target="_blank" rel="noopener noreferrer" title="WhatsApp">
-     <img src="./logo zap.png">
-     <p>WhatsApp</p>
-    </a>
+    <script>
+        function changeImage(id, src) {
+            document.getElementById(id).src = src;
+        }
 
-    <a href="https://www.facebook.com/share/agWkzsx5SL4WVhgo/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" title="Facebook">
-     <img src="./logo face.jpeg">
-     <p>Facebook</p>
-    </a>
- </footer>
- 
+        function restoreImage(id, src) {
+            document.getElementById(id).src = src;
+        }
+
+        window.onload = function () {
+            alert("Bem-vindo ao Nature Beauty!");
+        };
+    </script>
 </body>
+
 </html>
