@@ -1,21 +1,4 @@
-/* Estilos básicos para garantir que a imagem e o layout sejam responsivos */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Configuração do Header */
-header img {
-    width: 100%;
-    height: auto;
-}
 
 /* Estilos básicos para o footer */
 footer {
