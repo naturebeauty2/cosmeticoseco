@@ -1,24 +1,11 @@
-img {
-    max-width: 1500px;
-    height: 700px;
-    display: block;
+footer img {
+    width: 30px;
+    height: 30px;
 }
 
-/* Configuração do Header */
-header img {
-    width: 1500px;
-    height: 700px;
-}
-
-/* Estilos básicos para o footer */
 footer {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    background-color: #f1f1f1;
-    padding: 20px;
+    justify-content: center;
 }
 
 footer a {
@@ -28,51 +15,9 @@ footer a {
     color: black;
 }
 
-footer img {
-    width: 30px;
-    height: 30px;
-    margin-bottom: 5px;
+footer p {
+    margin-top: 2px;
 }
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column; /* Empilha os itens em telas menores */
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer a {
-        margin: 15px 0; /* Aumenta o espaçamento entre os itens */
-    }
-
-    footer img {
-        width: 40px;  /* Ajusta o tamanho das imagens */
-    }
-    
-    img {
-        width: 100%;  /* Garante que a imagem ocupe toda a largura disponível */
-    }
-}
-
-/* Responsividade para tablets (maiores que 768px e menores que 1024px) */
-@media (max-width: 1024px) {
-    footer {
-        justify-content: space-between;
-    }
-
-    footer img {
-        width: 60px;  /* Ajusta o tamanho das imagens no footer em tablets */
-    }
-}
-
-/* Ajustes para telas muito pequenas (celulares) */
-@media (max-width: 480px) {
-    img {
-        width: 100%;  /* A imagem ocupa toda a largura disponível */
-    }
-
-    footer img {
-        width: 40px;  /* Reduz o tamanho das imagens */
-    }
+title {
+    color: black;
 }
