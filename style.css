@@ -1,0 +1,23 @@
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    margin-top: 2px;
+}
+title {
+    color: black;
+}
