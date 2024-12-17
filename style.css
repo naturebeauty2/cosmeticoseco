@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: 1500px;
+    height: 700px;
     display: block;
 }
 
@@ -29,15 +29,15 @@ footer {
 }
 
 footer a {
+    padding: 20px;
     text-align: center;
-    margin: 10px;
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
 footer img {
-    width: 50px;
-    height: auto;
+    width: 30px;
+    height: 30px;
     margin-bottom: 5px;
 }
 
